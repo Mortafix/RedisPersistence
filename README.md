@@ -10,7 +10,7 @@ pip3 install redis-persistence
 
 # Import
 ```python
-from redispersistence.redispersistence import RedisPersistence
+from redispersistence.persistence import RedisPersistence
 ```
 
 # Usage
