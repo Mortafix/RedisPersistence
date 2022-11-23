@@ -5,7 +5,7 @@ from typing import Any, DefaultDict, Dict, Optional, Tuple
 from redis import Redis
 
 from telegram.ext import BasePersistence
-from telegram.utils.types import ConversationDict
+from telegram.ext.utils.types import ConversationDict
 
 
 class RedisPersistence(BasePersistence):
